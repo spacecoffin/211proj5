@@ -1,0 +1,56 @@
+
+Creating symbol table with character values
+-------------------------------------------
+Insert <Einstein, e>
+Insert <Newton, n>
+Insert <Bohr, b>
+Insert <Curie, c>
+
+Creating symbol table with integer values
+-----------------------------------------
+Insert <Einstein, 10>
+Insert <Newton, 20>
+Insert <Bohr, 30>
+Insert <Curie, 40>
+
+Creating symbol table with float values
+---------------------------------------
+Insert <Einstein, 1.11>
+Insert <Newton, 2.22>
+Insert <Bohr, 3.33>
+Insert <Curie, 4.44>
+
+Creating symbol table with arrays of two double values
+------------------------------------------------------
+Insert <Einstein, [1.11, 2.22]>
+Insert <Newton, [3.33, 4.44]>
+Insert <Bohr, [5.55, 6.66]>
+Insert <Curie, [7.77, 8.88]>
+
+Searching symbol table with character values
+--------------------------------------------
+Einstein found, value = e: now deleting
+Newton found, value = n: now deleting
+Bohr found, value = b: now deleting
+Curie found, value = c: now deleting
+
+Searching symbol table with integer values
+------------------------------------------
+Einstein found, value = 10: now deleting
+Newton found, value = 20: now deleting
+Bohr found, value = 30: now deleting
+Curie found, value = 40: now deleting
+
+Searching symbol table with float values
+----------------------------------------
+Einstein found, value = 1.11: now deleting
+Newton found, value = 2.22: now deleting
+Bohr found, value = 3.33: now deleting
+Curie found, value = 4.44: now deleting
+
+Searching symbol table with arrays of two double values
+-------------------------------------------------------
+Einstein found, value = [1.11, 2.22]: now deleting
+Newton found, value = [3.33, 4.44]: now deleting
+Bohr found, value = [5.55, 6.66]: now deleting
+Curie found, value = [7.77, 8.88]: now deleting

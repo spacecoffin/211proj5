@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2DC59AD81A315123001730CE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DC59AD71A315123001730CE /* main.c */; };
+		2DC59AD81A315123001730CE /* symTable.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DC59AD71A315123001730CE /* symTable.c */; };
 		2DC59ADA1A315123001730CE /* _11proj5.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2DC59AD91A315123001730CE /* _11proj5.1 */; };
+		2DC59AE31A315364001730CE /* symTable_client.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DC59AE01A315364001730CE /* symTable_client.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +27,11 @@
 
 /* Begin PBXFileReference section */
 		2DC59AD41A315123001730CE /* 211proj5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 211proj5; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DC59AD71A315123001730CE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		2DC59AD71A315123001730CE /* symTable.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = symTable.c; sourceTree = "<group>"; };
 		2DC59AD91A315123001730CE /* _11proj5.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _11proj5.1; sourceTree = "<group>"; };
+		2DC59AE01A315364001730CE /* symTable_client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = symTable_client.c; sourceTree = "<group>"; };
+		2DC59AE11A315364001730CE /* symTable_client.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = symTable_client.output; sourceTree = "<group>"; };
+		2DC59AE21A315364001730CE /* symTable.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 8; lastKnownFileType = sourcecode.c.h; path = symTable.h; sourceTree = "<group>"; tabWidth = 8; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +64,10 @@
 		2DC59AD61A315123001730CE /* 211proj5 */ = {
 			isa = PBXGroup;
 			children = (
-				2DC59AD71A315123001730CE /* main.c */,
+				2DC59AD71A315123001730CE /* symTable.c */,
+				2DC59AE21A315364001730CE /* symTable.h */,
+				2DC59AE01A315364001730CE /* symTable_client.c */,
+				2DC59AE11A315364001730CE /* symTable_client.output */,
 				2DC59AD91A315123001730CE /* _11proj5.1 */,
 			);
 			path = 211proj5;
@@ -117,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DC59AD81A315123001730CE /* main.c in Sources */,
+				2DC59AD81A315123001730CE /* symTable.c in Sources */,
+				2DC59AE31A315364001730CE /* symTable_client.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +149,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu89;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -181,7 +189,7 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu89;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
